@@ -1,0 +1,16 @@
+version: "3.7"
+services:
+  notebook:
+    build: .
+    command: ["jupyter", "lab"]
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./src:/home/jovyan/work/
+    networks:
+      - default
+
+networks:
+  default:
