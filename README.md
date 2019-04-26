@@ -12,5 +12,6 @@
 2.  Go to the project directory in the terminal
 3.  Run `docker-compose up` from the project directory
 4.  Go to the link specified in the Terminal output to use [JupyterLab]()
+5.  A sample notebook is available in the `work/` directory within [JupyterLab]()
 
 [jupyterlab]: https://jupyterlab.readthedocs.io/en/stable/
