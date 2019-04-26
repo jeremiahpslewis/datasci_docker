@@ -4,7 +4,7 @@
 
 1. Spins up [JupyterLab](), a computational notebook serving environment
 2. Includes R, Python and Julia
-3. Allows for reproducible computation; if you need additional dependencies, they can be added to the `Dockerfile`
+3. Allows for reproducible computation; if you need additional dependencies, they can be added to the [`Dockerfile`](Dockerfile)
 
 ## How to run
 
